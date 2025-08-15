@@ -6,7 +6,6 @@ This project implements a Retrieval-Augmented Generation (RAG) system in Python.
 - Upload and process PDF documents
 - Query documents using natural language
 - Streamlit web interface for interaction
-- Qdrant vector database integration (see `qdr.py`)
 
 ## Getting Started
 
@@ -26,15 +25,10 @@ This project implements a Retrieval-Augmented Generation (RAG) system in Python.
   ```powershell
   streamlit run test.py
   ```
-- To run the Qdrant integration script:
-  ```powershell
-  python qdr.py
-  ```
 
 ### File Structure
 - `main.py` - Main application logic
 - `test.py` - Streamlit app entry point
-- `qdr.py` - Qdrant vector database integration
 - `uploads/` - Directory for uploaded documents
 - `requirement.txt` - List of required Python packages
 - `env.example` - Example environment variables file
